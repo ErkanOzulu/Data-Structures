@@ -4,7 +4,11 @@ import java.util.Arrays;
 
 public class A1_TwoSum {
     public static void main(String[] args) {
-
+/*
+Is the array sorted?
+- No
+• No duplicated values accepted
+ */
         int[] input=new int[]{4,7,2,11};
         System.out.println(Arrays.toString(twoSumSolution1(input, 9)));
 
